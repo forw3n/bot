@@ -125,4 +125,4 @@ client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
 
-client.login('process.env.BOT_TOKEN');
+client.login('NTcxNjA3NDI0NTI4Njc4OTEy.XMQNCQ.pcNOHdyv3ihuhqGCFDJVLDa-WZ8');
