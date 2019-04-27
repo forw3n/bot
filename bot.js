@@ -9,16 +9,16 @@ client.on('ready', () => {
 });
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.channel.sendMessage('as');
+    msg.channel.sendMessage('Aleykümselam Hoş Geldin..');
   }
   if (!msg.content.startsWith(prefix)) {
      return;
 }
-if (msg.content.toLowerCase() === prefix + '' ) {
-  msg.reply('')
+if (msg.content.toLowerCase() === prefix + 'afk' ) {
+  msg.reply('Afk Kaldı')
 }
-if (msg.content.toLowerCase() === prefix + '' ) {
-  msg.reply('')
+if (msg.content.toLowerCase() === prefix + 'afkçık' ) {
+  msg.reply('Artık Afk Değil')
 }
 });
 client.on('guildBanAdd' , (guild, user) => {
